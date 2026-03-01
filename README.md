@@ -4,12 +4,12 @@
 
 **Team project**: Perrelli, Santero, Moretti – collaborative analysis.
 
-## 📌 Project Overview
+## Project Overview
 - **Dataset**: [Kaggle Credit Score Classification](https://www.kaggle.com/datasets/parisrohan/credit-score-classification) (28 vars, 100k instances)
 - **Goal**: Predict credit profiles using unsupervised + supervised ML methods
 - **Language**: R (libraries: mice, randomForest, kernlab, keras, dbscan, cluster)
 
-## 🔧 Pipeline
+## Pipeline
 1. **Pre-processing**:
    - MICE imputation (non-parametric)
    - Outlier removal (IQR method)
@@ -30,12 +30,12 @@
    | Neural Network   | 68.7%         | 512 ReLU neurons, 50 epochs    |
    | KNN              | 65.4%         | k=31                           |
 
-## 📂 Repository Contents
+## Repository Contents
 - `Codice.R` → Full R script (preprocessing, clustering, classification, evaluation)
 - `Report.docx` → Detailed analysis with confusion matrices, plots, metrics
 - `README.md` → This file
 
-## 🚀 How to Run
+## How to Run
 ```r
 # Install required packages
 install.packages(c("openxlsx", "mice", "caret", "randomForest", 
